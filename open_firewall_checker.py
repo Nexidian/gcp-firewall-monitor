@@ -5,6 +5,8 @@ open_firewall_checker.py
 # The client lib will check the file set on the GOOGLE_APPLICATION_CREDENTIALS env variable.
 # This is normally located at ~/.config/gcloud/<some_config_name>.json
 
+# Check my blog for a small write up https://www.nexidian.com/check-for-open-firewall-rules-in-google-cloud-using-python/
+
 # https://github.com/googleapis/google-api-python-client
 # pip install --upgrade google-api-python-client
 import googleapiclient.discovery
